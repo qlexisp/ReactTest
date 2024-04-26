@@ -5,6 +5,7 @@ import Content from './content.jsx'
 import IsLoggedIn from './isLoggedIn.jsx'
 import { List } from './isLoggedIn.jsx'
 import { Button } from './isLoggedIn.jsx'
+import Counter from './useState.jsx'
 //import { people } from './data.js';
 //import { getImageUrl } from './utils.js';
 //import Article from './Article.jsx'
@@ -18,6 +19,7 @@ export default function App() {
     <IsLoggedIn isLoggedIn={true} username="Alexis"/>
     <List />
     <Button text="Click me"/>
+    <Counter />
     </>
   )
 }

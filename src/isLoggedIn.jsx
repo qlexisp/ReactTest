@@ -20,3 +20,4 @@ export function Button(button) {
         <button className="bg-green-500 text-white py-2 px-2 rounded" onClick={handleClick}>{button.text}</button>
     );
 }
+
